@@ -37,6 +37,8 @@ def main():
             img.save('Minifigures/' + minifig_dict['set_num'] + '.png')
 
             # TODO Maybe add sleep here to avoid getting my IP address blocked?
+    
+    print("[DONE]")
             
 
 def pulltest():
