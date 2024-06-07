@@ -8,7 +8,7 @@ def main():
     max_minifigures = 16468
     key = '5998310773c9fe494ecf3450e1d3e604'
 
-    for page in range(4, 16):  # Since I was already done the first 3 page worths
+    for page in range(15, 16):  # Since I was already done the first 3 page worths
         payload = {
             'key': key,
             'page': page,
