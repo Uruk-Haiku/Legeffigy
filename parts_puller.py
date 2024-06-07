@@ -8,7 +8,7 @@ def main():
     max_minifigures = 16468
     key = '5998310773c9fe494ecf3450e1d3e604'
 
-    for page in range(1, 16):
+    for page in range(4, 16):  # Since I was already done the first 3 page worths
         payload = {
             'key': key,
             'page': page,
@@ -37,6 +37,7 @@ def main():
             img.save('Minifigures/' + minifig_dict['set_num'] + '.png')
 
             # TODO Maybe add sleep here to avoid getting my IP address blocked?
+            time.sleep(0.25)  # Hopefully sufficient
     
     print("[DONE]")
             
